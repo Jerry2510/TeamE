@@ -1,0 +1,111 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #313ac9;
+    font-family: Arial;
+    height: 50px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 100px;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #60b3e6;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.contents{
+    margin: 250px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+
+.contents a {
+    border: double;
+    padding: 30px;
+    /*margin: 20px;*/
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contents a:hover {
+    background-color: #60b3e6;
+}
+
+.authorsTable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.booksTable {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+td{
+    padding: 20px;
+    border: double;
+}
